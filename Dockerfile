@@ -10,4 +10,5 @@ COPY . .
 
 RUN chown -R node:node /src/app
 
-USER node
+CMD [ "node", "server.js" ]
+

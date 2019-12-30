@@ -1,7 +1,7 @@
 {
 	"name": "nodeexpress-bankingportal",
 	"version": "0.0.1",
-	"description": "Build a Banking Portal with Node & Express",
+	"description": "A Banking Portal Built with Node & Express",
 	"main": "app.js",
 	"scripts": {
 		"start": "nodemon ./src/app.js",
@@ -12,16 +12,6 @@
 		"test:module5": "cross-env NODE_ENV=test mocha --exit './test/module5/*.spec.js' || true",
 		"test": "cross-env NODE_ENV=test mocha --exit './test/**/*.spec.js' || true"
 	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/pluralsight-projects/NodeExpress-BankingPortal.git"
-	},
-	"author": "",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/pluralsight-projects/NodeExpress-BankingPortal/issues"
-	},
-	"homepage": "https://github.com/pluralsight-projects/NodeExpress-BankingPortal#readme",
 	"dependencies": {
 		"ejs": "2.6.1",
 		"express": "4.16.3"
