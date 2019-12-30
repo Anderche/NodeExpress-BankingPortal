@@ -1,14 +1,11 @@
 FROM node:10.1-alpine
 
-WORKDIR /src/app/
+WORKDIR /app
 
 ADD ./package.json .
 
-RUN ["npm", "install"]
+RUN npm install
 
 COPY . .
 
-RUN chown -R node:node /src/app
-
-CMD [ "node", "server.js" ]
-
+CMD ["npm", "start"]
