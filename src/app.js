@@ -23,5 +23,5 @@ app.use('/services', servicesRoutes);
 app.get('/profile', (req, res) => res.render('profile', { user: users[0] }));
 
 app.listen(process.env.PORT || 3000, () => {
-	console.log('PS Project Running on port 3000!');
+	console.log('App Running on port 3000!');
 });
